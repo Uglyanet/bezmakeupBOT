@@ -1,0 +1,22 @@
+{
+  "name": "bezmakeapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon bot",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Max Bezvuhliak",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0",
+    "micro-bot": "^2.5.3",
+    "moment": "^2.29.1",
+    "request": "^2.88.2",
+    "telegraf": "^4.3.0",
+    "telegraf-getchatmembers": "^1.0.1"
+  },
+  "devDependencies": {}
+}
