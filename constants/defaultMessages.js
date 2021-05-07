@@ -6,7 +6,7 @@ exports.startMessage = (name) => {
 ✨ сделай вход в свой личный кабинет на сайте https://www.bezmakeupa.com/ 
 логин: твоя почта, 
 пароль: номер телефона (380…)
-✨ добавляйся в чат всех участников https://t.me/joinchat/whSaZZQ1Z6owN2My
+✨ добавляйся в чат всех участников https://t.me/joinchat/E3yzhTa3-SE1Yjhi
 ✨ подпишись на страницу https://www.instagram.com/bezmakeupa.marafon/ (для прямых эфиров)
 
 Ниже ты найдешь перечень косметики, которая нам понадобится с ссылками, где можно приобрести бюджетные варианты на случай, если у тебя чего-то не хватает
@@ -14,7 +14,7 @@ exports.startMessage = (name) => {
 Каждый продукт советую проверять на сайтах и сравнивать, где выгоднее по цене, так как могут быть скидки. В некоторых пунктах есть варианты на выбор. Все средства максимально бюджетные, если хочется что-то более “дорогое” обязательно пиши мне, подберем индивидуально. Если посылки не успеют прийти к 1-2 дню марафона, не страшно, они нам понадобятся немного позже)
 
 ✨тон https://makeup.com.ua/product/72859/ 
-✨консиллер https://kodi-professional.ua/dekorativnaya-kosmetika/lico/konsiler/konsiler-kodi-professional_-kolir-dark-beige_-6-ml/ 
+✨консиллер https://kodi-professional.ua/dekorativnaya-kosmetika/lico/konsiler/konsiler_kolir_beige__5_2_g/
 ✨скульптор https://makeup.com.ua/product/746145/ Rouge 
 ✨румяна https://makeup.com.ua/product/761896/ светло-розовые 
 ✨хайлайтер https://makeup.com.ua/product/738829/ 01
@@ -31,16 +31,8 @@ exports.startMessage = (name) => {
 ✨кисть универсальная https://kodi-professional.ua/kisti-dlya-makiyazha/kisti-dlya-rumyan/kist_dlya_105/ и https://makeup.com.ua/product/492385/ 
 ✨для глаз 1 https://kodi-professional.ua/kisti-dlya-makiyazha/kisti-dlya-teney/kist_dlya_113/ 
 ✨для глаз 2 https://makeup.com.ua/product/458611/ 
-✨скошенная https://kodi-professional.ua/kisti-dlya-makiyazha/kist-dlya-brovey/kist_dlya_115/ 
+✨скошенная https://kodi-professional.ua/kisti-dlya-makiyazha/kist-dlya-brovey/kist_dlya_4/
 
 В этой палетке есть румяна, скульптор и абсолютно все тени https://makeup.com.ua/product/753583/ 
     `
-}
-
-const listOfCosmetics = ['хз шо', 'что-то другое']
-
-const getListOfCosmetics = () => {
- return listOfCosmetics.map(item=>{
-     return `- ${item}`
- }).join('\n')
 }
